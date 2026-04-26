@@ -18,6 +18,26 @@ fn main() {
         println!("{i}");
     }
 
+    println!("For with range [0, 5)");
+    for i in 0..5 {
+        println!("{i}");
+    }
+
+    println!("For with range [0, 5]");
+    for i in 0..=5 {
+        println!("{i}");
+    }
+
+    println!("Range rev");
+    for i in (0..5).rev() {
+        println!("{i}");
+    }
+
+    println!("Range step by 2");
+    for i in (0..=10).step_by(2) {
+        println!("{i}")
+    }
+
     // While loops
     let mut num = 0;
     while num < 10 {
