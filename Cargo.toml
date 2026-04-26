@@ -1,0 +1,18 @@
+[package]
+name = "rust-study"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "variables"
+path = "src/variables/main.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions/main.rs"
+
+[[bin]]
+name = "impl"
+path = "src/impl/main.rs"
