@@ -20,3 +20,7 @@ path = "src/impl/main.rs"
 [[bin]]
 name = "flow"
 path = "src/flow/main.rs"
+
+[[bin]]
+name = "trait"
+path = "src/trait/main.rs"
