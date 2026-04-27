@@ -2,10 +2,13 @@ fn main() {
     // Array é fixo
     let array_1 = [1, 2, 3];
     let item_1 = array_1[0];
-
+    
     // {:?} usa o trait debug do tipo
     println!("array_1: {:?}", array_1);
     println!("item_1: {}", item_1);
+
+    let array_2 = [3; 5];
+    println!("array_2: {:?}", array_2);
 
     // Vec é dinâmico
     let mut vec_1 = vec![1, 2, 3];
