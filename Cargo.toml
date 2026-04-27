@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+sqlx = { version = "0.8.6", features = ["runtime-tokio", "sqlite"] }
+tokio = { version = "1.52.1", features = ["macros", "rt-multi-thread"] }
 
 [[bin]]
 name = "variables"
@@ -24,3 +26,7 @@ path = "src/flow/main.rs"
 [[bin]]
 name = "trait"
 path = "src/trait/main.rs"
+
+[[bin]]
+name = "sqlite"
+path = "src/sqlite/main.rs"
