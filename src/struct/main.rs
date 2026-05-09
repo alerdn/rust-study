@@ -9,10 +9,7 @@ fn main() {
         year: 2026,
     };
 
-    println!(
-        "My car is owned by {} and was built in {}",
-        my_car.owner, my_car.year
-    );
+    my_car.display_info();
 
     let other_car = Car { ..my_car };
     println!(
