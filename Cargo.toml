@@ -34,3 +34,7 @@ path = "src/sqlite/main.rs"
 [[bin]]
 name = "struct"
 path = "src/struct/main.rs"
+
+[[bin]]
+name = "enum"
+path = "src/enum/main.rs"
