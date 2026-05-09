@@ -1,0 +1,1 @@
+pub struct Vector2(pub i32, pub i32);

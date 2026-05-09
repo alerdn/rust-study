@@ -30,3 +30,7 @@ path = "src/trait/main.rs"
 [[bin]]
 name = "sqlite"
 path = "src/sqlite/main.rs"
+
+[[bin]]
+name = "struct"
+path = "src/struct/main.rs"
