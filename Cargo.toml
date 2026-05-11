@@ -42,3 +42,7 @@ path = "src/enum/main.rs"
 [[bin]]
 name = "option"
 path = "src/option/main.rs"
+
+[[bin]]
+name = "result"
+path = "src/result/main.rs"
