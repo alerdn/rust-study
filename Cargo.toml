@@ -46,3 +46,7 @@ path = "src/option/main.rs"
 [[bin]]
 name = "result"
 path = "src/result/main.rs"
+
+[[bin]]
+name = "hash_maps"
+path = "src/hash_maps/main.rs"
