@@ -50,3 +50,7 @@ path = "src/result/main.rs"
 [[bin]]
 name = "hash_maps"
 path = "src/hash_maps/main.rs"
+
+[[bin]]
+name = "cast"
+path = "src/cast/main.rs"
